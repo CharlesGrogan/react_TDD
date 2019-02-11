@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import Wallet from "./Wallet";
 
 class App extends Component {
   render() {
     return (
-      <div className="container" data-test="app-component">
-        <h1>This is the container</h1>
+      <div>
+        <h2>Loot Check</h2>
+        <hr />
+        <Wallet />
       </div>
     );
   }
 }
+
 export default App;

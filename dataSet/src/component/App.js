@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import Chart from "./Chart";
 
 class App extends Component {
   render() {
     return (
-      <div className="container" data-test="app-component">
-        <h1>This is the container</h1>
+      <div data-test="component-app">
+        There should be a chart below...
+        <Chart />
+        <Chart />
       </div>
     );
   }
 }
+
 export default App;
